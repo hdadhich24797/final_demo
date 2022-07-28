@@ -1,0 +1,46 @@
+syntax = "proto2";
+
+package marvell;
+
+enum e_plr_package_type
+{
+    PLR_PACKAGE_SKW_BARE_DIE = 0;
+    PLR_PACKAGE_TYPE_11x12_DD = 1;
+    PLR_PACKAGE_TYPE_14x14_DD = 2;
+    PLR_PACKAGE_TYPE_8x10_DD = 3;
+    PLR_PACKAGE_TYPE_UNMAPPED = 4;
+    PLR_PACKAGE_TYPE_MAX = 5;
+}
+enum e_plr_operational_mode
+{
+    PLR_MODE_DUPLEX_RETIMER = 0;
+    PLR_MODE_FORWARD_GEARBOX = 1;
+    PLR_MODE_LINE_RETIMER = 2;
+    PLR_MODE_HOST_RETIMER = 3;
+    PLR_MODE_LINE_PRBS = 4;
+    PLR_MODE_HOST_PRBS = 5;
+    PLR_MODE_DUAL_PRBS = 6;
+    PLR_MODE_INGRESS_PRBS = 7;
+    PLR_MODE_EGRESS_PRBS = 8;
+    PLR_MODE_SHALLOW_DUAL_LOOPBACK = 9;
+    
+}
+enum e_plr_ref_clk_mode
+{
+    PLR_CLK_MODE_LOCAL = 0;
+}
+
+message plr_rules_t {
+    required e_plr_package_type package_type = 1;
+    required e_plr_operational_mode operational_mode = 2;
+    required e_plr_ref_clk_mode ref_clk_mode = 3;
+    required int32 ref_clk = 4;
+    required int32 baud_rate = 5;
+    required bool sfec_en = 6;
+    required bool show_debug_info = 7;
+    required uint32 fw_dwld_timeout = 8;
+    required bool ieee_demap = 9;
+    required bool fw_warn_if_mismatched = 10;
+    required bool sfp56_tp7_en = 11;
+}
+

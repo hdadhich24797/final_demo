@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package tutorial;
+
+message Person {
+    required int32 rolld = 1;
+    required int32 id = 2;
+    repeated int32 arr = 3;
+}
+
+message Super_person
+{
+    required uint32 money = 1;
+    required Person p1 = 2;
+}

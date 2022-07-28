@@ -1,0 +1,28 @@
+syntax = "proto2";
+
+package tutorial;
+
+message Person {
+    required int32 rolld = 1;
+    required int32 id = 2;
+    required int32 id3 = 3;
+    required int32 id4 = 4;
+    required int32 id5 = 5;
+    required int32 id6 = 6;
+    required int32 id7 = 7;
+    required int32 id8 = 8;
+    required int32 id9 = 9;
+    required int32 id10 = 10;
+    required int32 id11 = 11;
+    required int32 id12 = 12;
+    required int32 id13 = 13;
+    required int32 id14 = 14;
+    required int32 id15 = 15;
+    required int32 id16 = 16;
+    required int32 id17 = 17;
+    required int32 id18 = 18;
+    required int32 id19 = 19;
+    required int32 id20 = 20;
+    required int32 id21 = 21;
+}
+

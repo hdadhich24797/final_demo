@@ -1,0 +1,9 @@
+syntax = "proto2";
+import "demo1.proto";
+
+package marvell;
+
+message super_rules
+{
+    required rules r = 1;
+}

@@ -1,0 +1,164 @@
+syntax = "proto2";
+
+package marvell;
+
+enum e_plr_package_type {
+	A = 0;
+}
+enum e_plr_operational_mode {
+	B = 1;
+}
+enum e_plr_ref_clk_mode {
+	C = 2;
+}
+enum e_plr_rx_qc_snr_threshold {
+	D = 44;
+}
+enum e_plr_signal_mode {
+	E = 54;
+}
+enum e_plr_dsp_mode {
+	F = 64;
+}
+
+message plr_rx_qc_status_t {
+	required uint32 status = 1;
+}
+
+
+message plr_rx_qc_rules_t {
+	required e_plr_rx_qc_snr_threshold snr_threshold_mm_enter = 1;
+	required e_plr_rx_qc_snr_threshold snr_threshold_mm_exit = 2;
+	required uint32 slc_err_limit = 3;
+}
+
+
+message plr_lrx_rules_t {
+	required bool channel_enable = 1;
+	required e_plr_signal_mode signalling = 2;
+	required e_plr_dsp_mode dsp_mode = 3;
+	required bool gray_mapping = 4;
+	required bool dfe_precoder_en = 5;
+	required bool invert_chan = 6;
+	required bool vga_tracking_en = 7;
+	required bool oim_en = 8;
+	required uint32 preamp_bias_ctrl = 9;
+	required bool qc_all_dis = 10;
+	required bool qc_hist_dis = 11;
+	required bool qc_slc_dis = 12;
+	required bool qc_snr_dis = 13;
+	required plr_rx_qc_status_t qc_status = 14;
+}
+
+
+message plr_hrx_rules_t {
+	required bool channel_enable = 1;
+	required e_plr_signal_mode signalling = 2;
+	required bool gray_mapping = 3;
+	required bool invert_chan = 4;
+	required e_plr_dsp_mode kr_dsp_mode = 5;
+	required bool kr_dfe_precoder_en = 6;
+	required bool kr_auto_ctle_en = 7;
+	required uint32 kr_ctle_code = 8;
+	required bool kr_vga_tracking_en = 9;
+	required bool kr_oim_en = 10;
+	required uint32 kr_preamp_bias_ctrl = 11;
+	required bool kr_pga_att_en = 12;
+	required bool kr_qc_all_dis = 13;
+	required bool kr_qc_hist_dis = 14;
+	required bool kr_qc_slc_dis = 15;
+	required bool kr_qc_snr_dis = 16;
+	required plr_rx_qc_status_t kr_qc_status = 17;
+	required bool sr_skip_adapt = 18;
+	required bool sr_ctle_adapt_dis = 19;
+	required uint32 sr_ctle_override = 20;
+	required bool sr_ctle_c_adapt_en = 21;
+	required bool sr_ctle_r_adapt_dis = 22;
+	required bool sr_lfeq_adapt_dis = 23;
+	required uint32 sr_lfeq_override = 24;
+	required bool sr_dfe_adapt_dis = 25;
+	required bool sr_data_skew_adapt_dis = 26;
+	required bool sr_edge_skew_adapt_dis = 27;
+	required bool sr_slc_adapt_dis = 28;
+	required bool sr_edge_off_adapt_dis = 29;
+	required bool sr_agc_adapt_dis = 30;
+	required bool sr_vco_temp_cal_dis = 31;
+	required bool sr_afe_low_bw = 32;
+	required bool sr_afe_bw_adapt_dis = 33;
+	required bool sr_dc_off_adapt_dis = 34;
+	required bool sr_vco_mode = 35;
+	required bool sr_lfeq_adapt_dis_after_init_adapt = 36;
+}
+
+
+message plr_tx_rules_t {
+	required bool channel_enable = 1;
+	required bool squelch_lock = 2;
+	required e_plr_signal_mode signalling = 3;
+	required bool gray_mapping = 4;
+	required bool invert_chan = 5;
+	repeated int32 fir_tap = 6;
+	required uint32 inner_eye1 = 7;
+	required uint32 inner_eye2 = 8;
+	required bool dfe_precoder_en = 9;
+}
+
+
+message plr_advanced_rules_t {
+	required bool fll_low_bw_en = 1;
+	required uint32 ldo_mode_pll = 2;
+	required uint32 ldo_mode_txrx = 3;
+	required bool gck_en = 4;
+	required bool breakout_en = 5;
+	required bool los_thresholds_en = 6;
+	required bool avs_en = 7;
+}
+
+
+message plr_lm_rules_s {
+	required uint32 fec_mode = 1;
+	required bool fec_interleave = 2;
+}
+
+
+message plr_rules_t {
+	repeated uint32 id = 1;
+	repeated uint32 baud_rate = 2;
+	repeated uint32 operational_mode = 3;
+	repeated bool ieee_demap = 4;
+	repeated plr_rx_qc_rules_t lrx_qc = 5;
+	repeated plr_rx_qc_rules_t hrx_qc = 6;
+	repeated uint32 hrx = 7;
+	repeated uint32 htx = 8;
+	repeated uint32 lrx = 9;
+	repeated uint32 ltx = 10;
+	repeated uint32 ltx_xbar = 11;
+	repeated uint32 htx_xbar = 12;
+}
+
+
+message plr_rules_s {
+	required e_plr_package_type package_type = 1;
+	required e_plr_operational_mode operational_mode = 2;
+	required e_plr_ref_clk_mode ref_clk_mode = 3;
+	required uint32 ref_clk = 4;
+	required uint32 baud_rate = 5;
+	required bool sfec_en = 6;
+	repeated plr_rules_t bundle = 7;
+	required plr_rx_qc_rules_t lrx_qc = 8;
+	required plr_rx_qc_rules_t hrx_qc = 9;
+	required bool show_debug_info = 10;
+	required uint32 fw_dwld_timeout = 11;
+	required bool ieee_demap = 12;
+	required bool fw_warn_if_mismatched = 13;
+	required bool sfp56_tp7_en = 14;
+	repeated plr_lrx_rules_t lrx = 15;
+	repeated plr_hrx_rules_t hrx = 16;
+	repeated plr_tx_rules_t ltx = 17;
+	repeated plr_tx_rules_t htx = 18;
+	repeated uint32 htx_xbar = 19;
+	repeated uint32 ltx_xbar = 20;
+	required plr_advanced_rules_t advanced = 21;
+	required plr_lm_rules_s lm = 22;
+}
+

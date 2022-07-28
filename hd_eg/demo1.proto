@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+package marvell;
+
+message rules {
+    required int32 rolld = 1;
+    required int32 id = 2;
+}
+

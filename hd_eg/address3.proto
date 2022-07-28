@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package tutorial;
+
+message Person {
+    optional int32 rolld = 1;
+    optional int32 id = 2;
+}

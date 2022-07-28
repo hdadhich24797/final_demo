@@ -1,0 +1,173 @@
+syntax = "proto2";
+
+package marvell;
+
+enum e_plr_rx_qc_snr_threshold
+{
+    PLR_RX_QC_SNR_THRESH_21dB = 0xD2;
+    PLR_RX_QC_SNR_THRESH_22dB = 0xDC;
+    PLR_RX_QC_SNR_THRESH_23dB = 0xE6;
+}
+
+enum e_plr_dsp_mode
+{
+    PLR_DSP_MODE_SLC1_MPICAN_SLC2 = 8;
+    PLR_DSP_MODE_SLC1_RC_MPICAN_SLC2 = 10;
+    PLR_DSP_MODE_DFE1_MPICAN_SLC2 = 13;
+    PLR_DSP_MODE_DFE1_RC_MPICAN_SLC2 = 15;
+}
+
+enum e_plr_signal_mode
+{
+    PLR_SIGNAL_MODE_PAM = 0;
+    PLR_SIGNAL_MODE_NRZ = 1;
+}
+
+enum e_plr_package_type
+{
+    PLR_PACKAGE_SKW_BARE_DIE = 0;
+    PLR_PACKAGE_TYPE_11x12_DD = 1;
+    PLR_PACKAGE_TYPE_14x14_DD = 2;
+    PLR_PACKAGE_TYPE_8x10_DD = 3;
+    PLR_PACKAGE_TYPE_UNMAPPED = 4;
+    PLR_PACKAGE_TYPE_MAX = 5;
+}
+enum e_plr_operational_mode
+{
+    PLR_MODE_DUPLEX_RETIMER = 0;
+    PLR_MODE_FORWARD_GEARBOX = 1;
+    PLR_MODE_LINE_RETIMER = 2;
+    PLR_MODE_HOST_RETIMER = 3;
+    PLR_MODE_LINE_PRBS = 4;
+    PLR_MODE_HOST_PRBS = 5;
+    PLR_MODE_DUAL_PRBS = 6;
+    PLR_MODE_INGRESS_PRBS = 7;
+    PLR_MODE_EGRESS_PRBS = 8;
+    PLR_MODE_SHALLOW_DUAL_LOOPBACK = 9;
+    
+}
+enum e_plr_ref_clk_mode
+{
+    PLR_CLK_MODE_LOCAL = 0;
+}
+message plr_rx_qc_status_t {
+    //This is uint16 with bitfields
+    required uint32 status = 1;
+}
+
+message plr_bundles_rules_t {
+    repeated uint32 id = 1;
+    repeated uint32 baud_rate = 2;
+    repeated uint32 operational_mode = 3;
+    repeated bool ieee_demap = 4;
+    repeated plr_rx_qc_rules_t lrx_qc = 5;
+    repeated plr_rx_qc_rules_t hrx_qc = 6;
+
+    repeated uint32 hrx = 7;
+    repeated uint32 htx = 8;
+    repeated uint32 lrx = 9;
+    repeated uint32 ltx = 10;
+    repeated uint32 ltx_xbar = 11;
+    repeated uint32 htx_xbar = 12;
+}
+
+message plr_rx_qc_rules_t {
+    required e_plr_rx_qc_snr_threshold snr_threshold_mm_enter = 1;
+    required e_plr_rx_qc_snr_threshold snr_threshold_mm_exit = 2;
+    required uint32 slc_err_limit = 3;
+}
+
+message plr_lrx_rules_t {
+
+    required bool channel_enable = 1;
+    required e_plr_signal_mode signalling = 2;
+    required e_plr_dsp_mode dsp_mode = 3;
+    required bool gray_mapping = 4;
+    required bool dfe_precoder_en = 5;
+    required bool invert_chan = 6;
+    required bool vga_tracking_en = 7;
+    required bool oim_en = 8;
+    required uint32 preamp_bias_ctrl = 9;
+    required bool qc_all_dis = 10;
+    required bool qc_hist_dis = 11;
+    required bool qc_slc_dis = 12;
+    required bool qc_snr_dis = 13;
+    required plr_rx_qc_status_t status = 14;
+}
+
+message plr_hrx_rules_t {
+
+    required bool channel_enable = 1;
+    required bool gray_mapping = 2;
+    required bool invert_chan = 3;
+    required e_plr_dsp_mode kr_dsp_mode = 4;
+    required bool kr_dfe_precoder_en = 5;
+    required bool kr_auto_ctle_en = 6;
+    required uint32 kr_ctle_code = 7;
+    required bool kr_vga_tracking_en = 8;
+    required bool kr_oim_en = 9;
+    required uint32 kr_preamp_bias_ctrl = 10;
+    required bool kr_pga_att_en = 11;
+    required plr_rx_qc_status_t kr_qc_status = 12;
+    required bool sr_vco_mode = 13;
+}
+
+message plr_tx_rules_t {
+    required bool channel_enable = 1;
+    required bool squelch_lock = 2;
+    required e_plr_signal_mode signalling = 3;
+    required bool gray_mapping = 4;
+    required bool invert_chan = 5;
+    repeated int32 fir_tap = 6;
+    required int32 inner_eye1 = 7;
+    required int32 inner_eye2 = 8;
+    required bool dfe_precoder_en = 9;
+}
+
+message plr_advanced_rules_t {
+    required bool fll_low_bw_en = 1;
+    required uint32 ldo_mode_pll = 2;
+    required uint32 ldo_mode_txrx = 3;
+    required bool gck_en = 4;
+    required bool breakout_en = 5;
+    required bool los_thresholds_en = 6;
+    required bool avs_en = 7;
+}
+
+message plr_lm_rules_t {
+    required uint32 fec_mode = 1;
+    required bool fec_interleave = 2;
+}
+
+message plr_rules_t {
+    required e_plr_package_type package_type = 1;
+    required e_plr_operational_mode operational_mode = 2;
+    required e_plr_ref_clk_mode ref_clk_mode = 3;
+   
+    required int32 ref_clk = 4;
+    required int32 baud_rate = 5;
+    required bool sfec_en = 6;
+    repeated plr_bundles_rules_t bundle = 7;
+    optional plr_rx_qc_rules_t lrx_qc = 8;
+    optional plr_rx_qc_rules_t hrx_qc = 9;
+    
+    required bool show_debug_info = 10;
+    required uint32 fw_dwld_timeout = 11;
+    required bool ieee_demap = 12;
+    required bool fw_warn_if_mismatched = 13;
+
+    required bool sfp56_tp7_en = 14;
+    repeated plr_lrx_rules_t lrx = 15;
+    repeated plr_hrx_rules_t hrx = 16;
+
+    repeated plr_tx_rules_t ltx = 17;
+    repeated plr_tx_rules_t htx = 18;
+    
+    //here htx_xbar and ltx_xbar are uint16 but proto does not support uint8/16
+    repeated uint32 htx_xbar = 19;
+    repeated uint32 ltx_xbar = 20;
+
+    optional plr_advanced_rules_t advanded = 21;
+    optional plr_lm_rules_t lm = 22;
+}
+

@@ -1,0 +1,569 @@
+Verify packed len is 1601
+***** PLR rules are below: ****
+ref_clk is 10 
+baud rate is 115200 
+sfec_en is 1
+show debug info is 0
+fw dnld timwout is 2000
+ieee demap is 1
+fw warn if mismatched is 0
+sfp56 is 1
+package type is 3
+op mode is 6
+ref clk mode 0
+1 2 3 4 5 6 7 8 9 
+1 2 3 4 5 6 7 8 9 
+fll_low_bw_en 1
+ldo_mode_pll 31
+ldo_mode_txrx 32
+gck_en 0
+breakout_en 1
+los_thresholds_en 0
+avs_en 1
+Fec mode 24
+Fec interleave is 0
+
+***LTX
+0 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+1 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+2 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+3 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+4 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+5 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+6 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+7 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+8 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+
+***HTX
+0 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+1 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+2 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+3 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+4 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+5 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+6 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+7 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+8 
+chan 1
+lock 0
+signal 1
+gray map 1
+invert chan 0
+n_fir_cap 0
+inner eye 1 51 
+inner eye 2 52
+dfe precode en 1
+****LRX QC and HRX QC
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+
+***LRX
+0 
+channel enable is 1 
+sig mode is 1 
+dsp mode is 13 
+gray mapping is 0 
+dfe precoder is 1 
+invert chan 0 
+vga track en 1 
+oim en 0 
+preamp bias ctrl 67 
+qc all dis 1 
+qc hist dis 0 
+qc slc dis 1 
+qc snr dis 0 
+status  71 
+1 
+channel enable is 1 
+sig mode is 1 
+dsp mode is 13 
+gray mapping is 0 
+dfe precoder is 1 
+invert chan 0 
+vga track en 1 
+oim en 0 
+preamp bias ctrl 67 
+qc all dis 1 
+qc hist dis 0 
+qc slc dis 1 
+qc snr dis 0 
+status  71 
+2 
+channel enable is 1 
+sig mode is 1 
+dsp mode is 13 
+gray mapping is 0 
+dfe precoder is 1 
+invert chan 0 
+vga track en 1 
+oim en 0 
+preamp bias ctrl 67 
+qc all dis 1 
+qc hist dis 0 
+qc slc dis 1 
+qc snr dis 0 
+status  71 
+3 
+channel enable is 1 
+sig mode is 1 
+dsp mode is 13 
+gray mapping is 0 
+dfe precoder is 1 
+invert chan 0 
+vga track en 1 
+oim en 0 
+preamp bias ctrl 67 
+qc all dis 1 
+qc hist dis 0 
+qc slc dis 1 
+qc snr dis 0 
+status  71 
+4 
+channel enable is 1 
+sig mode is 1 
+dsp mode is 13 
+gray mapping is 0 
+dfe precoder is 1 
+invert chan 0 
+vga track en 1 
+oim en 0 
+preamp bias ctrl 67 
+qc all dis 1 
+qc hist dis 0 
+qc slc dis 1 
+qc snr dis 0 
+status  71 
+5 
+channel enable is 1 
+sig mode is 1 
+dsp mode is 13 
+gray mapping is 0 
+dfe precoder is 1 
+invert chan 0 
+vga track en 1 
+oim en 0 
+preamp bias ctrl 67 
+qc all dis 1 
+qc hist dis 0 
+qc slc dis 1 
+qc snr dis 0 
+status  71 
+6 
+channel enable is 1 
+sig mode is 1 
+dsp mode is 13 
+gray mapping is 0 
+dfe precoder is 1 
+invert chan 0 
+vga track en 1 
+oim en 0 
+preamp bias ctrl 67 
+qc all dis 1 
+qc hist dis 0 
+qc slc dis 1 
+qc snr dis 0 
+status  71 
+7 
+channel enable is 1 
+sig mode is 1 
+dsp mode is 13 
+gray mapping is 0 
+dfe precoder is 1 
+invert chan 0 
+vga track en 1 
+oim en 0 
+preamp bias ctrl 67 
+qc all dis 1 
+qc hist dis 0 
+qc slc dis 1 
+qc snr dis 0 
+status  71 
+8 
+channel enable is 1 
+sig mode is 1 
+dsp mode is 13 
+gray mapping is 0 
+dfe precoder is 1 
+invert chan 0 
+vga track en 1 
+oim en 0 
+preamp bias ctrl 67 
+qc all dis 1 
+qc hist dis 0 
+qc slc dis 1 
+qc snr dis 0 
+status  71 
+
+***HRX
+0 
+channel enable is 1 
+gray mapping is 0 
+invert chan 0 
+dsp mode is 13 
+dfe precoder is 1 
+auto ctle en is 1
+crle mode is 81
+vga track en 1 
+oim en 0 
+preamp bias ctrl 87 
+pga att en 1
+status  71 
+1 
+channel enable is 1 
+gray mapping is 0 
+invert chan 0 
+dsp mode is 13 
+dfe precoder is 1 
+auto ctle en is 1
+crle mode is 81
+vga track en 1 
+oim en 0 
+preamp bias ctrl 87 
+pga att en 1
+status  71 
+2 
+channel enable is 1 
+gray mapping is 0 
+invert chan 0 
+dsp mode is 13 
+dfe precoder is 1 
+auto ctle en is 1
+crle mode is 81
+vga track en 1 
+oim en 0 
+preamp bias ctrl 87 
+pga att en 1
+status  71 
+3 
+channel enable is 1 
+gray mapping is 0 
+invert chan 0 
+dsp mode is 13 
+dfe precoder is 1 
+auto ctle en is 1
+crle mode is 81
+vga track en 1 
+oim en 0 
+preamp bias ctrl 87 
+pga att en 1
+status  71 
+4 
+channel enable is 1 
+gray mapping is 0 
+invert chan 0 
+dsp mode is 13 
+dfe precoder is 1 
+auto ctle en is 1
+crle mode is 81
+vga track en 1 
+oim en 0 
+preamp bias ctrl 87 
+pga att en 1
+status  71 
+5 
+channel enable is 1 
+gray mapping is 0 
+invert chan 0 
+dsp mode is 13 
+dfe precoder is 1 
+auto ctle en is 1
+crle mode is 81
+vga track en 1 
+oim en 0 
+preamp bias ctrl 87 
+pga att en 1
+status  71 
+6 
+channel enable is 1 
+gray mapping is 0 
+invert chan 0 
+dsp mode is 13 
+dfe precoder is 1 
+auto ctle en is 1
+crle mode is 81
+vga track en 1 
+oim en 0 
+preamp bias ctrl 87 
+pga att en 1
+status  71 
+7 
+channel enable is 1 
+gray mapping is 0 
+invert chan 0 
+dsp mode is 13 
+dfe precoder is 1 
+auto ctle en is 1
+crle mode is 81
+vga track en 1 
+oim en 0 
+preamp bias ctrl 87 
+pga att en 1
+status  71 
+8 
+channel enable is 1 
+gray mapping is 0 
+invert chan 0 
+dsp mode is 13 
+dfe precoder is 1 
+auto ctle en is 1
+crle mode is 81
+vga track en 1 
+oim en 0 
+preamp bias ctrl 87 
+pga att en 1
+status  71 
+
+***Bundle
+0 
+id are 0 1
+baud_rate are 9600 19200
+operational_mode are 101 201
+ieee_demap are 1 0
+hrx are 301 302
+hrx are 301 304
+lrx are 305 306
+ltx are 307 308
+ltx_xbar is below311 312 313 314 315 316 317 318 
+htx_xbar is below321 322 323 324 324 326 327 328 
+Qc rules inside PLR rules***
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+1 
+id are 0 1
+baud_rate are 9600 19200
+operational_mode are 101 201
+ieee_demap are 1 0
+hrx are 301 302
+hrx are 301 304
+lrx are 305 306
+ltx are 307 308
+ltx_xbar is below311 312 313 314 315 316 317 318 
+htx_xbar is below321 322 323 324 324 326 327 328 
+Qc rules inside PLR rules***
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+2 
+id are 0 1
+baud_rate are 9600 19200
+operational_mode are 101 201
+ieee_demap are 1 0
+hrx are 301 302
+hrx are 301 304
+lrx are 305 306
+ltx are 307 308
+ltx_xbar is below311 312 313 314 315 316 317 318 
+htx_xbar is below321 322 323 324 324 326 327 328 
+Qc rules inside PLR rules***
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+3 
+id are 0 1
+baud_rate are 9600 19200
+operational_mode are 101 201
+ieee_demap are 1 0
+hrx are 301 302
+hrx are 301 304
+lrx are 305 306
+ltx are 307 308
+ltx_xbar is below311 312 313 314 315 316 317 318 
+htx_xbar is below321 322 323 324 324 326 327 328 
+Qc rules inside PLR rules***
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230
+slc_err_limit 41
+snr thresh mm enter is 220
+snr thresh mm exit is 230

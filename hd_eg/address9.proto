@@ -1,0 +1,23 @@
+syntax = "proto2";
+
+package tutorial;
+
+enum My_enum
+{
+    A = 0;
+    B = 2;
+    C = 5;
+}
+
+message Person {
+    required int32 rolld = 1;
+    required int32 id = 2;
+    repeated int32 arr = 3;
+}
+
+message Super_person
+{
+    required uint32 money = 1;
+    repeated Person p1 = 2;
+    required My_enum e = 3;
+}

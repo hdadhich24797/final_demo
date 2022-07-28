@@ -1,0 +1,442 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+MARVELL__E_PLR_DSP_MODE__PLR_DSP_MODE_DFE1_MPICAN_SLC2	demo1.pb-c.h	/^  MARVELL__E_PLR_DSP_MODE__PLR_DSP_MODE_DFE1_MPICAN_SLC2 = 13,$/;"	e	enum:_Marvell__EPlrDspMode
+MARVELL__E_PLR_DSP_MODE__PLR_DSP_MODE_DFE1_RC_MPICAN_SLC2	demo1.pb-c.h	/^  MARVELL__E_PLR_DSP_MODE__PLR_DSP_MODE_DFE1_RC_MPICAN_SLC2 = 15$/;"	e	enum:_Marvell__EPlrDspMode
+MARVELL__E_PLR_DSP_MODE__PLR_DSP_MODE_SLC1_MPICAN_SLC2	demo1.pb-c.h	/^  MARVELL__E_PLR_DSP_MODE__PLR_DSP_MODE_SLC1_MPICAN_SLC2 = 8,$/;"	e	enum:_Marvell__EPlrDspMode
+MARVELL__E_PLR_DSP_MODE__PLR_DSP_MODE_SLC1_RC_MPICAN_SLC2	demo1.pb-c.h	/^  MARVELL__E_PLR_DSP_MODE__PLR_DSP_MODE_SLC1_RC_MPICAN_SLC2 = 10,$/;"	e	enum:_Marvell__EPlrDspMode
+MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_DUAL_PRBS	demo1.pb-c.h	/^  MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_DUAL_PRBS = 6,$/;"	e	enum:_Marvell__EPlrOperationalMode
+MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_DUPLEX_RETIMER	demo1.pb-c.h	/^  MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_DUPLEX_RETIMER = 0,$/;"	e	enum:_Marvell__EPlrOperationalMode
+MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_EGRESS_PRBS	demo1.pb-c.h	/^  MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_EGRESS_PRBS = 8,$/;"	e	enum:_Marvell__EPlrOperationalMode
+MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_FORWARD_GEARBOX	demo1.pb-c.h	/^  MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_FORWARD_GEARBOX = 1,$/;"	e	enum:_Marvell__EPlrOperationalMode
+MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_HOST_PRBS	demo1.pb-c.h	/^  MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_HOST_PRBS = 5,$/;"	e	enum:_Marvell__EPlrOperationalMode
+MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_HOST_RETIMER	demo1.pb-c.h	/^  MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_HOST_RETIMER = 3,$/;"	e	enum:_Marvell__EPlrOperationalMode
+MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_INGRESS_PRBS	demo1.pb-c.h	/^  MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_INGRESS_PRBS = 7,$/;"	e	enum:_Marvell__EPlrOperationalMode
+MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_LINE_PRBS	demo1.pb-c.h	/^  MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_LINE_PRBS = 4,$/;"	e	enum:_Marvell__EPlrOperationalMode
+MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_LINE_RETIMER	demo1.pb-c.h	/^  MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_LINE_RETIMER = 2,$/;"	e	enum:_Marvell__EPlrOperationalMode
+MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_SHALLOW_DUAL_LOOPBACK	demo1.pb-c.h	/^  MARVELL__E_PLR_OPERATIONAL_MODE__PLR_MODE_SHALLOW_DUAL_LOOPBACK = 9$/;"	e	enum:_Marvell__EPlrOperationalMode
+MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_SKW_BARE_DIE	demo1.pb-c.h	/^  MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_SKW_BARE_DIE = 0,$/;"	e	enum:_Marvell__EPlrPackageType
+MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_TYPE_11x12_DD	demo1.pb-c.h	/^  MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_TYPE_11x12_DD = 1,$/;"	e	enum:_Marvell__EPlrPackageType
+MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_TYPE_14x14_DD	demo1.pb-c.h	/^  MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_TYPE_14x14_DD = 2,$/;"	e	enum:_Marvell__EPlrPackageType
+MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_TYPE_8x10_DD	demo1.pb-c.h	/^  MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_TYPE_8x10_DD = 3,$/;"	e	enum:_Marvell__EPlrPackageType
+MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_TYPE_MAX	demo1.pb-c.h	/^  MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_TYPE_MAX = 5$/;"	e	enum:_Marvell__EPlrPackageType
+MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_TYPE_UNMAPPED	demo1.pb-c.h	/^  MARVELL__E_PLR_PACKAGE_TYPE__PLR_PACKAGE_TYPE_UNMAPPED = 4,$/;"	e	enum:_Marvell__EPlrPackageType
+MARVELL__E_PLR_REF_CLK_MODE__PLR_CLK_MODE_LOCAL	demo1.pb-c.h	/^  MARVELL__E_PLR_REF_CLK_MODE__PLR_CLK_MODE_LOCAL = 0$/;"	e	enum:_Marvell__EPlrRefClkMode
+MARVELL__E_PLR_RX_QC_SNR_THRESHOLD__PLR_RX_QC_SNR_THRESH_21dB	demo1.pb-c.h	/^  MARVELL__E_PLR_RX_QC_SNR_THRESHOLD__PLR_RX_QC_SNR_THRESH_21dB = 210,$/;"	e	enum:_Marvell__EPlrRxQcSnrThreshold
+MARVELL__E_PLR_RX_QC_SNR_THRESHOLD__PLR_RX_QC_SNR_THRESH_22dB	demo1.pb-c.h	/^  MARVELL__E_PLR_RX_QC_SNR_THRESHOLD__PLR_RX_QC_SNR_THRESH_22dB = 220,$/;"	e	enum:_Marvell__EPlrRxQcSnrThreshold
+MARVELL__E_PLR_RX_QC_SNR_THRESHOLD__PLR_RX_QC_SNR_THRESH_23dB	demo1.pb-c.h	/^  MARVELL__E_PLR_RX_QC_SNR_THRESHOLD__PLR_RX_QC_SNR_THRESH_23dB = 230$/;"	e	enum:_Marvell__EPlrRxQcSnrThreshold
+MARVELL__E_PLR_SIGNAL_MODE__PLR_SIGNAL_MODE_NRZ	demo1.pb-c.h	/^  MARVELL__E_PLR_SIGNAL_MODE__PLR_SIGNAL_MODE_NRZ = 1$/;"	e	enum:_Marvell__EPlrSignalMode
+MARVELL__E_PLR_SIGNAL_MODE__PLR_SIGNAL_MODE_PAM	demo1.pb-c.h	/^  MARVELL__E_PLR_SIGNAL_MODE__PLR_SIGNAL_MODE_PAM = 0,$/;"	e	enum:_Marvell__EPlrSignalMode
+MARVELL__PLR_ADVANCED_RULES_T__INIT	demo1.pb-c.h	/^#define MARVELL__PLR_ADVANCED_RULES_T__INIT /;"	d
+MARVELL__PLR_BUNDLES_RULES_T__INIT	demo1.pb-c.h	/^#define MARVELL__PLR_BUNDLES_RULES_T__INIT /;"	d
+MARVELL__PLR_HRX_RULES_T__INIT	demo1.pb-c.h	/^#define MARVELL__PLR_HRX_RULES_T__INIT /;"	d
+MARVELL__PLR_LM_RULES_T__INIT	demo1.pb-c.h	/^#define MARVELL__PLR_LM_RULES_T__INIT /;"	d
+MARVELL__PLR_LRX_RULES_T__INIT	demo1.pb-c.h	/^#define MARVELL__PLR_LRX_RULES_T__INIT /;"	d
+MARVELL__PLR_RULES_T__INIT	demo1.pb-c.h	/^#define MARVELL__PLR_RULES_T__INIT /;"	d
+MARVELL__PLR_RX_QC_RULES_T__INIT	demo1.pb-c.h	/^#define MARVELL__PLR_RX_QC_RULES_T__INIT /;"	d
+MARVELL__PLR_RX_QC_STATUS_T__INIT	demo1.pb-c.h	/^#define MARVELL__PLR_RX_QC_STATUS_T__INIT /;"	d
+MARVELL__PLR_TX_RULES_T__INIT	demo1.pb-c.h	/^#define MARVELL__PLR_TX_RULES_T__INIT /;"	d
+Marvell__EPlrDspMode	demo1.pb-c.h	/^} Marvell__EPlrDspMode;$/;"	t	typeref:enum:_Marvell__EPlrDspMode
+Marvell__EPlrOperationalMode	demo1.pb-c.h	/^} Marvell__EPlrOperationalMode;$/;"	t	typeref:enum:_Marvell__EPlrOperationalMode
+Marvell__EPlrPackageType	demo1.pb-c.h	/^} Marvell__EPlrPackageType;$/;"	t	typeref:enum:_Marvell__EPlrPackageType
+Marvell__EPlrRefClkMode	demo1.pb-c.h	/^} Marvell__EPlrRefClkMode;$/;"	t	typeref:enum:_Marvell__EPlrRefClkMode
+Marvell__EPlrRxQcSnrThreshold	demo1.pb-c.h	/^} Marvell__EPlrRxQcSnrThreshold;$/;"	t	typeref:enum:_Marvell__EPlrRxQcSnrThreshold
+Marvell__EPlrSignalMode	demo1.pb-c.h	/^} Marvell__EPlrSignalMode;$/;"	t	typeref:enum:_Marvell__EPlrSignalMode
+Marvell__PlrAdvancedRulesT	demo1.pb-c.h	/^typedef struct _Marvell__PlrAdvancedRulesT Marvell__PlrAdvancedRulesT;$/;"	t	typeref:struct:_Marvell__PlrAdvancedRulesT
+Marvell__PlrAdvancedRulesT_Closure	demo1.pb-c.h	/^typedef void (*Marvell__PlrAdvancedRulesT_Closure)$/;"	t	typeref:typename:void (*)(const Marvell__PlrAdvancedRulesT * message,void * closure_data)
+Marvell__PlrBundlesRulesT	demo1.pb-c.h	/^typedef struct _Marvell__PlrBundlesRulesT Marvell__PlrBundlesRulesT;$/;"	t	typeref:struct:_Marvell__PlrBundlesRulesT
+Marvell__PlrBundlesRulesT_Closure	demo1.pb-c.h	/^typedef void (*Marvell__PlrBundlesRulesT_Closure)$/;"	t	typeref:typename:void (*)(const Marvell__PlrBundlesRulesT * message,void * closure_data)
+Marvell__PlrHrxRulesT	demo1.pb-c.h	/^typedef struct _Marvell__PlrHrxRulesT Marvell__PlrHrxRulesT;$/;"	t	typeref:struct:_Marvell__PlrHrxRulesT
+Marvell__PlrHrxRulesT_Closure	demo1.pb-c.h	/^typedef void (*Marvell__PlrHrxRulesT_Closure)$/;"	t	typeref:typename:void (*)(const Marvell__PlrHrxRulesT * message,void * closure_data)
+Marvell__PlrLmRulesT	demo1.pb-c.h	/^typedef struct _Marvell__PlrLmRulesT Marvell__PlrLmRulesT;$/;"	t	typeref:struct:_Marvell__PlrLmRulesT
+Marvell__PlrLmRulesT_Closure	demo1.pb-c.h	/^typedef void (*Marvell__PlrLmRulesT_Closure)$/;"	t	typeref:typename:void (*)(const Marvell__PlrLmRulesT * message,void * closure_data)
+Marvell__PlrLrxRulesT	demo1.pb-c.h	/^typedef struct _Marvell__PlrLrxRulesT Marvell__PlrLrxRulesT;$/;"	t	typeref:struct:_Marvell__PlrLrxRulesT
+Marvell__PlrLrxRulesT_Closure	demo1.pb-c.h	/^typedef void (*Marvell__PlrLrxRulesT_Closure)$/;"	t	typeref:typename:void (*)(const Marvell__PlrLrxRulesT * message,void * closure_data)
+Marvell__PlrRulesT	demo1.pb-c.h	/^typedef struct _Marvell__PlrRulesT Marvell__PlrRulesT;$/;"	t	typeref:struct:_Marvell__PlrRulesT
+Marvell__PlrRulesT_Closure	demo1.pb-c.h	/^typedef void (*Marvell__PlrRulesT_Closure)$/;"	t	typeref:typename:void (*)(const Marvell__PlrRulesT * message,void * closure_data)
+Marvell__PlrRxQcRulesT	demo1.pb-c.h	/^typedef struct _Marvell__PlrRxQcRulesT Marvell__PlrRxQcRulesT;$/;"	t	typeref:struct:_Marvell__PlrRxQcRulesT
+Marvell__PlrRxQcRulesT_Closure	demo1.pb-c.h	/^typedef void (*Marvell__PlrRxQcRulesT_Closure)$/;"	t	typeref:typename:void (*)(const Marvell__PlrRxQcRulesT * message,void * closure_data)
+Marvell__PlrRxQcStatusT	demo1.pb-c.h	/^typedef struct _Marvell__PlrRxQcStatusT Marvell__PlrRxQcStatusT;$/;"	t	typeref:struct:_Marvell__PlrRxQcStatusT
+Marvell__PlrRxQcStatusT_Closure	demo1.pb-c.h	/^typedef void (*Marvell__PlrRxQcStatusT_Closure)$/;"	t	typeref:typename:void (*)(const Marvell__PlrRxQcStatusT * message,void * closure_data)
+Marvell__PlrTxRulesT	demo1.pb-c.h	/^typedef struct _Marvell__PlrTxRulesT Marvell__PlrTxRulesT;$/;"	t	typeref:struct:_Marvell__PlrTxRulesT
+Marvell__PlrTxRulesT_Closure	demo1.pb-c.h	/^typedef void (*Marvell__PlrTxRulesT_Closure)$/;"	t	typeref:typename:void (*)(const Marvell__PlrTxRulesT * message,void * closure_data)
+PLR_CLK_MODE_LOCAL	demo1.proto	/^    PLR_CLK_MODE_LOCAL = 0;$/;"	e
+PLR_DSP_MODE_DFE1_MPICAN_SLC2	demo1.proto	/^    PLR_DSP_MODE_DFE1_MPICAN_SLC2 = 13;$/;"	e
+PLR_DSP_MODE_DFE1_RC_MPICAN_SLC2	demo1.proto	/^    PLR_DSP_MODE_DFE1_RC_MPICAN_SLC2 = 15;$/;"	e
+PLR_DSP_MODE_SLC1_MPICAN_SLC2	demo1.proto	/^    PLR_DSP_MODE_SLC1_MPICAN_SLC2 = 8;$/;"	e
+PLR_DSP_MODE_SLC1_RC_MPICAN_SLC2	demo1.proto	/^    PLR_DSP_MODE_SLC1_RC_MPICAN_SLC2 = 10;$/;"	e
+PLR_MODE_DUAL_PRBS	demo1.proto	/^    PLR_MODE_DUAL_PRBS = 6;$/;"	e
+PLR_MODE_DUPLEX_RETIMER	demo1.proto	/^    PLR_MODE_DUPLEX_RETIMER = 0;$/;"	e
+PLR_MODE_EGRESS_PRBS	demo1.proto	/^    PLR_MODE_EGRESS_PRBS = 8;$/;"	e
+PLR_MODE_FORWARD_GEARBOX	demo1.proto	/^    PLR_MODE_FORWARD_GEARBOX = 1;$/;"	e
+PLR_MODE_HOST_PRBS	demo1.proto	/^    PLR_MODE_HOST_PRBS = 5;$/;"	e
+PLR_MODE_HOST_RETIMER	demo1.proto	/^    PLR_MODE_HOST_RETIMER = 3;$/;"	e
+PLR_MODE_INGRESS_PRBS	demo1.proto	/^    PLR_MODE_INGRESS_PRBS = 7;$/;"	e
+PLR_MODE_LINE_PRBS	demo1.proto	/^    PLR_MODE_LINE_PRBS = 4;$/;"	e
+PLR_MODE_LINE_RETIMER	demo1.proto	/^    PLR_MODE_LINE_RETIMER = 2;$/;"	e
+PLR_MODE_SHALLOW_DUAL_LOOPBACK	demo1.proto	/^    PLR_MODE_SHALLOW_DUAL_LOOPBACK = 9;$/;"	e
+PLR_PACKAGE_SKW_BARE_DIE	demo1.proto	/^    PLR_PACKAGE_SKW_BARE_DIE = 0;$/;"	e
+PLR_PACKAGE_TYPE_11x12_DD	demo1.proto	/^    PLR_PACKAGE_TYPE_11x12_DD = 1;$/;"	e
+PLR_PACKAGE_TYPE_14x14_DD	demo1.proto	/^    PLR_PACKAGE_TYPE_14x14_DD = 2;$/;"	e
+PLR_PACKAGE_TYPE_8x10_DD	demo1.proto	/^    PLR_PACKAGE_TYPE_8x10_DD = 3;$/;"	e
+PLR_PACKAGE_TYPE_MAX	demo1.proto	/^    PLR_PACKAGE_TYPE_MAX = 5;$/;"	e
+PLR_PACKAGE_TYPE_UNMAPPED	demo1.proto	/^    PLR_PACKAGE_TYPE_UNMAPPED = 4;$/;"	e
+PLR_RX_QC_SNR_THRESH_21dB	demo1.proto	/^    PLR_RX_QC_SNR_THRESH_21dB = 0xD2;$/;"	e
+PLR_RX_QC_SNR_THRESH_22dB	demo1.proto	/^    PLR_RX_QC_SNR_THRESH_22dB = 0xDC;$/;"	e
+PLR_RX_QC_SNR_THRESH_23dB	demo1.proto	/^    PLR_RX_QC_SNR_THRESH_23dB = 0xE6;$/;"	e
+PLR_SIGNAL_MODE_NRZ	demo1.proto	/^    PLR_SIGNAL_MODE_NRZ = 1;$/;"	e
+PLR_SIGNAL_MODE_PAM	demo1.proto	/^    PLR_SIGNAL_MODE_PAM = 0;$/;"	e
+PROTOBUF_C__NO_DEPRECATED	demo1.pb-c.c	/^#define PROTOBUF_C__NO_DEPRECATED$/;"	d	file:
+PROTOBUF_C_demo1_2eproto__INCLUDED	demo1.pb-c.h	/^#define PROTOBUF_C_demo1_2eproto__INCLUDED$/;"	d
+TEST_BAUD_RATE	main.c	/^#define TEST_BAUD_RATE /;"	d	file:
+TEST_DWLD_TIMEOUT	main.c	/^#define TEST_DWLD_TIMEOUT /;"	d	file:
+TEST_FEC_MODE	main.c	/^#define TEST_FEC_MODE /;"	d	file:
+TEST_LDO_MODE_PLL	main.c	/^#define TEST_LDO_MODE_PLL /;"	d	file:
+TEST_LDO_MODE_TXRX	main.c	/^#define TEST_LDO_MODE_TXRX /;"	d	file:
+TEST_REF_CLK	main.c	/^#define TEST_REF_CLK /;"	d	file:
+_Marvell__EPlrDspMode	demo1.pb-c.h	/^typedef enum _Marvell__EPlrDspMode {$/;"	g
+_Marvell__EPlrOperationalMode	demo1.pb-c.h	/^typedef enum _Marvell__EPlrOperationalMode {$/;"	g
+_Marvell__EPlrPackageType	demo1.pb-c.h	/^typedef enum _Marvell__EPlrPackageType {$/;"	g
+_Marvell__EPlrRefClkMode	demo1.pb-c.h	/^typedef enum _Marvell__EPlrRefClkMode {$/;"	g
+_Marvell__EPlrRxQcSnrThreshold	demo1.pb-c.h	/^typedef enum _Marvell__EPlrRxQcSnrThreshold {$/;"	g
+_Marvell__EPlrSignalMode	demo1.pb-c.h	/^typedef enum _Marvell__EPlrSignalMode {$/;"	g
+_Marvell__PlrAdvancedRulesT	demo1.pb-c.h	/^struct  _Marvell__PlrAdvancedRulesT$/;"	s
+_Marvell__PlrBundlesRulesT	demo1.pb-c.h	/^struct  _Marvell__PlrBundlesRulesT$/;"	s
+_Marvell__PlrHrxRulesT	demo1.pb-c.h	/^struct  _Marvell__PlrHrxRulesT$/;"	s
+_Marvell__PlrLmRulesT	demo1.pb-c.h	/^struct  _Marvell__PlrLmRulesT$/;"	s
+_Marvell__PlrLrxRulesT	demo1.pb-c.h	/^struct  _Marvell__PlrLrxRulesT$/;"	s
+_Marvell__PlrRulesT	demo1.pb-c.h	/^struct  _Marvell__PlrRulesT$/;"	s
+_Marvell__PlrRxQcRulesT	demo1.pb-c.h	/^struct  _Marvell__PlrRxQcRulesT$/;"	s
+_Marvell__PlrRxQcStatusT	demo1.pb-c.h	/^struct  _Marvell__PlrRxQcStatusT$/;"	s
+_Marvell__PlrTxRulesT	demo1.pb-c.h	/^struct  _Marvell__PlrTxRulesT$/;"	s
+advanded	demo1.pb-c.h	/^  Marvell__PlrAdvancedRulesT *advanded;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__PlrAdvancedRulesT *
+advanded	demo1.proto	/^    required plr_advanced_rules_t advanded = 21;$/;"	f
+avs_en	demo1.pb-c.h	/^  protobuf_c_boolean avs_en;$/;"	m	struct:_Marvell__PlrAdvancedRulesT	typeref:typename:protobuf_c_boolean
+avs_en	demo1.proto	/^    required bool avs_en = 7;$/;"	f
+base	demo1.pb-c.h	/^  ProtobufCMessage base;$/;"	m	struct:_Marvell__PlrAdvancedRulesT	typeref:typename:ProtobufCMessage
+base	demo1.pb-c.h	/^  ProtobufCMessage base;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:ProtobufCMessage
+base	demo1.pb-c.h	/^  ProtobufCMessage base;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:ProtobufCMessage
+base	demo1.pb-c.h	/^  ProtobufCMessage base;$/;"	m	struct:_Marvell__PlrLmRulesT	typeref:typename:ProtobufCMessage
+base	demo1.pb-c.h	/^  ProtobufCMessage base;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:ProtobufCMessage
+base	demo1.pb-c.h	/^  ProtobufCMessage base;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:ProtobufCMessage
+base	demo1.pb-c.h	/^  ProtobufCMessage base;$/;"	m	struct:_Marvell__PlrRxQcRulesT	typeref:typename:ProtobufCMessage
+base	demo1.pb-c.h	/^  ProtobufCMessage base;$/;"	m	struct:_Marvell__PlrRxQcStatusT	typeref:typename:ProtobufCMessage
+base	demo1.pb-c.h	/^  ProtobufCMessage base;$/;"	m	struct:_Marvell__PlrTxRulesT	typeref:typename:ProtobufCMessage
+baud_rate	demo1.pb-c.h	/^  int32_t baud_rate;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:int32_t
+baud_rate	demo1.pb-c.h	/^  uint32_t *baud_rate;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:uint32_t *
+baud_rate	demo1.proto	/^    repeated uint32 baud_rate = 2;$/;"	f
+baud_rate	demo1.proto	/^    required int32 baud_rate = 5;$/;"	f
+breakout_en	demo1.pb-c.h	/^  protobuf_c_boolean breakout_en;$/;"	m	struct:_Marvell__PlrAdvancedRulesT	typeref:typename:protobuf_c_boolean
+breakout_en	demo1.proto	/^    required bool breakout_en = 5;$/;"	f
+bundle	demo1.pb-c.h	/^  Marvell__PlrBundlesRulesT **bundle;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__PlrBundlesRulesT **
+bundle	demo1.proto	/^    repeated plr_bundles_rules_t bundle = 7;$/;"	f
+channel_enable	demo1.pb-c.h	/^  protobuf_c_boolean channel_enable;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:protobuf_c_boolean
+channel_enable	demo1.pb-c.h	/^  protobuf_c_boolean channel_enable;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:protobuf_c_boolean
+channel_enable	demo1.pb-c.h	/^  protobuf_c_boolean channel_enable;$/;"	m	struct:_Marvell__PlrTxRulesT	typeref:typename:protobuf_c_boolean
+channel_enable	demo1.proto	/^    required bool channel_enable = 1;$/;"	f
+dfe_precoder_en	demo1.pb-c.h	/^  protobuf_c_boolean dfe_precoder_en;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:protobuf_c_boolean
+dfe_precoder_en	demo1.pb-c.h	/^  protobuf_c_boolean dfe_precoder_en;$/;"	m	struct:_Marvell__PlrTxRulesT	typeref:typename:protobuf_c_boolean
+dfe_precoder_en	demo1.proto	/^    required bool dfe_precoder_en = 5;$/;"	f
+dfe_precoder_en	demo1.proto	/^    required bool dfe_precoder_en = 9;$/;"	f
+dsp_mode	demo1.pb-c.h	/^  Marvell__EPlrDspMode dsp_mode;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:Marvell__EPlrDspMode
+dsp_mode	demo1.proto	/^    required e_plr_dsp_mode dsp_mode = 3;$/;"	f
+e_plr_dsp_mode	demo1.proto	/^enum e_plr_dsp_mode$/;"	g
+e_plr_operational_mode	demo1.proto	/^enum e_plr_operational_mode$/;"	g
+e_plr_package_type	demo1.proto	/^enum e_plr_package_type$/;"	g
+e_plr_ref_clk_mode	demo1.proto	/^enum e_plr_ref_clk_mode$/;"	g
+e_plr_rx_qc_snr_threshold	demo1.proto	/^enum e_plr_rx_qc_snr_threshold$/;"	g
+e_plr_signal_mode	demo1.proto	/^enum e_plr_signal_mode$/;"	g
+fec_interleave	demo1.pb-c.h	/^  protobuf_c_boolean fec_interleave;$/;"	m	struct:_Marvell__PlrLmRulesT	typeref:typename:protobuf_c_boolean
+fec_interleave	demo1.proto	/^    required bool fec_interleave = 2;$/;"	f
+fec_mode	demo1.pb-c.h	/^  uint32_t fec_mode;$/;"	m	struct:_Marvell__PlrLmRulesT	typeref:typename:uint32_t
+fec_mode	demo1.proto	/^    required uint32 fec_mode = 1;$/;"	f
+fir_tap	demo1.pb-c.h	/^  int32_t *fir_tap;$/;"	m	struct:_Marvell__PlrTxRulesT	typeref:typename:int32_t *
+fir_tap	demo1.proto	/^    repeated int32 fir_tap = 6;$/;"	f
+fll_low_bw_en	demo1.pb-c.h	/^  protobuf_c_boolean fll_low_bw_en;$/;"	m	struct:_Marvell__PlrAdvancedRulesT	typeref:typename:protobuf_c_boolean
+fll_low_bw_en	demo1.proto	/^    required bool fll_low_bw_en = 1;$/;"	f
+fw_dwld_timeout	demo1.pb-c.h	/^  uint32_t fw_dwld_timeout;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:uint32_t
+fw_dwld_timeout	demo1.proto	/^    required uint32 fw_dwld_timeout = 11;$/;"	f
+fw_warn_if_mismatched	demo1.pb-c.h	/^  protobuf_c_boolean fw_warn_if_mismatched;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:protobuf_c_boolean
+fw_warn_if_mismatched	demo1.proto	/^    required bool fw_warn_if_mismatched = 13;$/;"	f
+gck_en	demo1.pb-c.h	/^  protobuf_c_boolean gck_en;$/;"	m	struct:_Marvell__PlrAdvancedRulesT	typeref:typename:protobuf_c_boolean
+gck_en	demo1.proto	/^    required bool gck_en = 4;$/;"	f
+gray_mapping	demo1.pb-c.h	/^  protobuf_c_boolean gray_mapping;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:protobuf_c_boolean
+gray_mapping	demo1.pb-c.h	/^  protobuf_c_boolean gray_mapping;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:protobuf_c_boolean
+gray_mapping	demo1.pb-c.h	/^  protobuf_c_boolean gray_mapping;$/;"	m	struct:_Marvell__PlrTxRulesT	typeref:typename:protobuf_c_boolean
+gray_mapping	demo1.proto	/^    required bool gray_mapping = 2;$/;"	f
+gray_mapping	demo1.proto	/^    required bool gray_mapping = 4;$/;"	f
+hrx	demo1.pb-c.h	/^  Marvell__PlrHrxRulesT **hrx;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__PlrHrxRulesT **
+hrx	demo1.pb-c.h	/^  uint32_t *hrx;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:uint32_t *
+hrx	demo1.proto	/^    repeated plr_hrx_rules_t hrx = 16;$/;"	f
+hrx	demo1.proto	/^    repeated uint32 hrx = 7;$/;"	f
+hrx_qc	demo1.pb-c.h	/^  Marvell__PlrRxQcRulesT **hrx_qc;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:Marvell__PlrRxQcRulesT **
+hrx_qc	demo1.pb-c.h	/^  Marvell__PlrRxQcRulesT *hrx_qc;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__PlrRxQcRulesT *
+hrx_qc	demo1.proto	/^    repeated plr_rx_qc_rules_t hrx_qc = 6;$/;"	f
+hrx_qc	demo1.proto	/^    required plr_rx_qc_rules_t hrx_qc = 9;$/;"	f
+htx	demo1.pb-c.h	/^  Marvell__PlrTxRulesT **htx;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__PlrTxRulesT **
+htx	demo1.pb-c.h	/^  uint32_t *htx;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:uint32_t *
+htx	demo1.proto	/^    repeated plr_tx_rules_t htx = 18;$/;"	f
+htx	demo1.proto	/^    repeated uint32 htx = 8;$/;"	f
+htx_xbar	demo1.pb-c.h	/^  uint32_t *htx_xbar;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:uint32_t *
+htx_xbar	demo1.pb-c.h	/^  uint32_t *htx_xbar;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:uint32_t *
+htx_xbar	demo1.proto	/^    repeated uint32 htx_xbar = 12;$/;"	f
+htx_xbar	demo1.proto	/^    repeated uint32 htx_xbar = 19;$/;"	f
+id	demo1.pb-c.h	/^  uint32_t *id;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:uint32_t *
+id	demo1.proto	/^    repeated uint32 id = 1;$/;"	f
+ieee_demap	demo1.pb-c.h	/^  protobuf_c_boolean *ieee_demap;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:protobuf_c_boolean *
+ieee_demap	demo1.pb-c.h	/^  protobuf_c_boolean ieee_demap;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:protobuf_c_boolean
+ieee_demap	demo1.proto	/^    repeated bool ieee_demap = 4;$/;"	f
+ieee_demap	demo1.proto	/^    required bool ieee_demap = 12;$/;"	f
+inner_eye1	demo1.pb-c.h	/^  int32_t inner_eye1;$/;"	m	struct:_Marvell__PlrTxRulesT	typeref:typename:int32_t
+inner_eye1	demo1.proto	/^    required int32 inner_eye1 = 7;$/;"	f
+inner_eye2	demo1.pb-c.h	/^  int32_t inner_eye2;$/;"	m	struct:_Marvell__PlrTxRulesT	typeref:typename:int32_t
+inner_eye2	demo1.proto	/^    required int32 inner_eye2 = 8;$/;"	f
+invert_chan	demo1.pb-c.h	/^  protobuf_c_boolean invert_chan;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:protobuf_c_boolean
+invert_chan	demo1.pb-c.h	/^  protobuf_c_boolean invert_chan;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:protobuf_c_boolean
+invert_chan	demo1.pb-c.h	/^  protobuf_c_boolean invert_chan;$/;"	m	struct:_Marvell__PlrTxRulesT	typeref:typename:protobuf_c_boolean
+invert_chan	demo1.proto	/^    required bool invert_chan = 3;$/;"	f
+invert_chan	demo1.proto	/^    required bool invert_chan = 5;$/;"	f
+invert_chan	demo1.proto	/^    required bool invert_chan = 6;$/;"	f
+kr_auto_ctle_en	demo1.pb-c.h	/^  protobuf_c_boolean kr_auto_ctle_en;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:protobuf_c_boolean
+kr_auto_ctle_en	demo1.proto	/^    required bool kr_auto_ctle_en = 6;$/;"	f
+kr_ctle_code	demo1.pb-c.h	/^  uint32_t kr_ctle_code;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:uint32_t
+kr_ctle_code	demo1.proto	/^    required uint32 kr_ctle_code = 7;$/;"	f
+kr_dfe_precoder_en	demo1.pb-c.h	/^  protobuf_c_boolean kr_dfe_precoder_en;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:protobuf_c_boolean
+kr_dfe_precoder_en	demo1.proto	/^    required bool kr_dfe_precoder_en = 5;$/;"	f
+kr_dsp_mode	demo1.pb-c.h	/^  Marvell__EPlrDspMode kr_dsp_mode;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:Marvell__EPlrDspMode
+kr_dsp_mode	demo1.proto	/^    required e_plr_dsp_mode kr_dsp_mode = 4;$/;"	f
+kr_oim_en	demo1.pb-c.h	/^  protobuf_c_boolean kr_oim_en;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:protobuf_c_boolean
+kr_oim_en	demo1.proto	/^    required bool kr_oim_en = 9;$/;"	f
+kr_pga_att_en	demo1.pb-c.h	/^  protobuf_c_boolean kr_pga_att_en;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:protobuf_c_boolean
+kr_pga_att_en	demo1.proto	/^    required bool kr_pga_att_en = 11;$/;"	f
+kr_preamp_bias_ctrl	demo1.pb-c.h	/^  uint32_t kr_preamp_bias_ctrl;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:uint32_t
+kr_preamp_bias_ctrl	demo1.proto	/^    required uint32 kr_preamp_bias_ctrl = 10;$/;"	f
+kr_qc_status	demo1.pb-c.h	/^  Marvell__PlrRxQcStatusT *kr_qc_status;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:Marvell__PlrRxQcStatusT *
+kr_qc_status	demo1.proto	/^    required plr_rx_qc_status_t kr_qc_status = 12;$/;"	f
+kr_vga_tracking_en	demo1.pb-c.h	/^  protobuf_c_boolean kr_vga_tracking_en;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:protobuf_c_boolean
+kr_vga_tracking_en	demo1.proto	/^    required bool kr_vga_tracking_en = 8;$/;"	f
+ldo_mode_pll	demo1.pb-c.h	/^  uint32_t ldo_mode_pll;$/;"	m	struct:_Marvell__PlrAdvancedRulesT	typeref:typename:uint32_t
+ldo_mode_pll	demo1.proto	/^    required uint32 ldo_mode_pll = 2;$/;"	f
+ldo_mode_txrx	demo1.pb-c.h	/^  uint32_t ldo_mode_txrx;$/;"	m	struct:_Marvell__PlrAdvancedRulesT	typeref:typename:uint32_t
+ldo_mode_txrx	demo1.proto	/^    required uint32 ldo_mode_txrx = 3;$/;"	f
+lm	demo1.pb-c.h	/^  Marvell__PlrLmRulesT *lm;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__PlrLmRulesT *
+lm	demo1.proto	/^    required plr_lm_rules_t lm = 22;$/;"	f
+los_thresholds_en	demo1.pb-c.h	/^  protobuf_c_boolean los_thresholds_en;$/;"	m	struct:_Marvell__PlrAdvancedRulesT	typeref:typename:protobuf_c_boolean
+los_thresholds_en	demo1.proto	/^    required bool los_thresholds_en = 6;$/;"	f
+lrx	demo1.pb-c.h	/^  Marvell__PlrLrxRulesT **lrx;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__PlrLrxRulesT **
+lrx	demo1.pb-c.h	/^  uint32_t *lrx;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:uint32_t *
+lrx	demo1.proto	/^    repeated plr_lrx_rules_t lrx = 15;$/;"	f
+lrx	demo1.proto	/^    repeated uint32 lrx = 9;$/;"	f
+lrx_qc	demo1.pb-c.h	/^  Marvell__PlrRxQcRulesT **lrx_qc;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:Marvell__PlrRxQcRulesT **
+lrx_qc	demo1.pb-c.h	/^  Marvell__PlrRxQcRulesT *lrx_qc;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__PlrRxQcRulesT *
+lrx_qc	demo1.proto	/^    repeated plr_rx_qc_rules_t lrx_qc = 5;$/;"	f
+lrx_qc	demo1.proto	/^    required plr_rx_qc_rules_t lrx_qc = 8;$/;"	f
+ltx	demo1.pb-c.h	/^  Marvell__PlrTxRulesT **ltx;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__PlrTxRulesT **
+ltx	demo1.pb-c.h	/^  uint32_t *ltx;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:uint32_t *
+ltx	demo1.proto	/^    repeated plr_tx_rules_t ltx = 17;$/;"	f
+ltx	demo1.proto	/^    repeated uint32 ltx = 10;$/;"	f
+ltx_xbar	demo1.pb-c.h	/^  uint32_t *ltx_xbar;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:uint32_t *
+ltx_xbar	demo1.pb-c.h	/^  uint32_t *ltx_xbar;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:uint32_t *
+ltx_xbar	demo1.proto	/^    repeated uint32 ltx_xbar = 11;$/;"	f
+ltx_xbar	demo1.proto	/^    repeated uint32 ltx_xbar = 20;$/;"	f
+main	main.c	/^int main()$/;"	f	typeref:typename:int
+marvell	demo1.proto	/^package marvell;$/;"	p
+marvell__e_plr_dsp_mode__descriptor	demo1.pb-c.c	/^const ProtobufCEnumDescriptor marvell__e_plr_dsp_mode__descriptor =$/;"	v	typeref:typename:const ProtobufCEnumDescriptor
+marvell__e_plr_dsp_mode__enum_values_by_name	demo1.pb-c.c	/^static const ProtobufCEnumValueIndex marvell__e_plr_dsp_mode__enum_values_by_name[4] =$/;"	v	typeref:typename:const ProtobufCEnumValueIndex[4]	file:
+marvell__e_plr_dsp_mode__enum_values_by_number	demo1.pb-c.c	/^static const ProtobufCEnumValue marvell__e_plr_dsp_mode__enum_values_by_number[4] =$/;"	v	typeref:typename:const ProtobufCEnumValue[4]	file:
+marvell__e_plr_dsp_mode__value_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__e_plr_dsp_mode__value_ranges[] = {$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__e_plr_operational_mode__descriptor	demo1.pb-c.c	/^const ProtobufCEnumDescriptor marvell__e_plr_operational_mode__descriptor =$/;"	v	typeref:typename:const ProtobufCEnumDescriptor
+marvell__e_plr_operational_mode__enum_values_by_name	demo1.pb-c.c	/^static const ProtobufCEnumValueIndex marvell__e_plr_operational_mode__enum_values_by_name[10] =$/;"	v	typeref:typename:const ProtobufCEnumValueIndex[10]	file:
+marvell__e_plr_operational_mode__enum_values_by_number	demo1.pb-c.c	/^static const ProtobufCEnumValue marvell__e_plr_operational_mode__enum_values_by_number[10] =$/;"	v	typeref:typename:const ProtobufCEnumValue[10]	file:
+marvell__e_plr_operational_mode__value_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__e_plr_operational_mode__value_ranges[] = {$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__e_plr_package_type__descriptor	demo1.pb-c.c	/^const ProtobufCEnumDescriptor marvell__e_plr_package_type__descriptor =$/;"	v	typeref:typename:const ProtobufCEnumDescriptor
+marvell__e_plr_package_type__enum_values_by_name	demo1.pb-c.c	/^static const ProtobufCEnumValueIndex marvell__e_plr_package_type__enum_values_by_name[6] =$/;"	v	typeref:typename:const ProtobufCEnumValueIndex[6]	file:
+marvell__e_plr_package_type__enum_values_by_number	demo1.pb-c.c	/^static const ProtobufCEnumValue marvell__e_plr_package_type__enum_values_by_number[6] =$/;"	v	typeref:typename:const ProtobufCEnumValue[6]	file:
+marvell__e_plr_package_type__value_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__e_plr_package_type__value_ranges[] = {$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__e_plr_ref_clk_mode__descriptor	demo1.pb-c.c	/^const ProtobufCEnumDescriptor marvell__e_plr_ref_clk_mode__descriptor =$/;"	v	typeref:typename:const ProtobufCEnumDescriptor
+marvell__e_plr_ref_clk_mode__enum_values_by_name	demo1.pb-c.c	/^static const ProtobufCEnumValueIndex marvell__e_plr_ref_clk_mode__enum_values_by_name[1] =$/;"	v	typeref:typename:const ProtobufCEnumValueIndex[1]	file:
+marvell__e_plr_ref_clk_mode__enum_values_by_number	demo1.pb-c.c	/^static const ProtobufCEnumValue marvell__e_plr_ref_clk_mode__enum_values_by_number[1] =$/;"	v	typeref:typename:const ProtobufCEnumValue[1]	file:
+marvell__e_plr_ref_clk_mode__value_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__e_plr_ref_clk_mode__value_ranges[] = {$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__e_plr_rx_qc_snr_threshold__descriptor	demo1.pb-c.c	/^const ProtobufCEnumDescriptor marvell__e_plr_rx_qc_snr_threshold__descriptor =$/;"	v	typeref:typename:const ProtobufCEnumDescriptor
+marvell__e_plr_rx_qc_snr_threshold__enum_values_by_name	demo1.pb-c.c	/^static const ProtobufCEnumValueIndex marvell__e_plr_rx_qc_snr_threshold__enum_values_by_name[3] /;"	v	typeref:typename:const ProtobufCEnumValueIndex[3]	file:
+marvell__e_plr_rx_qc_snr_threshold__enum_values_by_number	demo1.pb-c.c	/^static const ProtobufCEnumValue marvell__e_plr_rx_qc_snr_threshold__enum_values_by_number[3] =$/;"	v	typeref:typename:const ProtobufCEnumValue[3]	file:
+marvell__e_plr_rx_qc_snr_threshold__value_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__e_plr_rx_qc_snr_threshold__value_ranges[] = {$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__e_plr_signal_mode__descriptor	demo1.pb-c.c	/^const ProtobufCEnumDescriptor marvell__e_plr_signal_mode__descriptor =$/;"	v	typeref:typename:const ProtobufCEnumDescriptor
+marvell__e_plr_signal_mode__enum_values_by_name	demo1.pb-c.c	/^static const ProtobufCEnumValueIndex marvell__e_plr_signal_mode__enum_values_by_name[2] =$/;"	v	typeref:typename:const ProtobufCEnumValueIndex[2]	file:
+marvell__e_plr_signal_mode__enum_values_by_number	demo1.pb-c.c	/^static const ProtobufCEnumValue marvell__e_plr_signal_mode__enum_values_by_number[2] =$/;"	v	typeref:typename:const ProtobufCEnumValue[2]	file:
+marvell__e_plr_signal_mode__value_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__e_plr_signal_mode__value_ranges[] = {$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__plr_advanced_rules_t__descriptor	demo1.pb-c.c	/^const ProtobufCMessageDescriptor marvell__plr_advanced_rules_t__descriptor =$/;"	v	typeref:typename:const ProtobufCMessageDescriptor
+marvell__plr_advanced_rules_t__field_descriptors	demo1.pb-c.c	/^static const ProtobufCFieldDescriptor marvell__plr_advanced_rules_t__field_descriptors[7] =$/;"	v	typeref:typename:const ProtobufCFieldDescriptor[7]	file:
+marvell__plr_advanced_rules_t__field_indices_by_name	demo1.pb-c.c	/^static const unsigned marvell__plr_advanced_rules_t__field_indices_by_name[] = {$/;"	v	typeref:typename:const unsigned[]	file:
+marvell__plr_advanced_rules_t__free_unpacked	demo1.pb-c.c	/^void   marvell__plr_advanced_rules_t__free_unpacked$/;"	f	typeref:typename:void
+marvell__plr_advanced_rules_t__get_packed_size	demo1.pb-c.c	/^size_t marvell__plr_advanced_rules_t__get_packed_size$/;"	f	typeref:typename:size_t
+marvell__plr_advanced_rules_t__init	demo1.pb-c.c	/^void   marvell__plr_advanced_rules_t__init$/;"	f	typeref:typename:void
+marvell__plr_advanced_rules_t__number_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__plr_advanced_rules_t__number_ranges[1 + 1] =$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__plr_advanced_rules_t__pack	demo1.pb-c.c	/^size_t marvell__plr_advanced_rules_t__pack$/;"	f	typeref:typename:size_t
+marvell__plr_advanced_rules_t__pack_to_buffer	demo1.pb-c.c	/^size_t marvell__plr_advanced_rules_t__pack_to_buffer$/;"	f	typeref:typename:size_t
+marvell__plr_advanced_rules_t__unpack	demo1.pb-c.c	/^       marvell__plr_advanced_rules_t__unpack$/;"	f	typeref:typename:Marvell__PlrAdvancedRulesT *
+marvell__plr_bundles_rules_t__descriptor	demo1.pb-c.c	/^const ProtobufCMessageDescriptor marvell__plr_bundles_rules_t__descriptor =$/;"	v	typeref:typename:const ProtobufCMessageDescriptor
+marvell__plr_bundles_rules_t__field_descriptors	demo1.pb-c.c	/^static const ProtobufCFieldDescriptor marvell__plr_bundles_rules_t__field_descriptors[12] =$/;"	v	typeref:typename:const ProtobufCFieldDescriptor[12]	file:
+marvell__plr_bundles_rules_t__field_indices_by_name	demo1.pb-c.c	/^static const unsigned marvell__plr_bundles_rules_t__field_indices_by_name[] = {$/;"	v	typeref:typename:const unsigned[]	file:
+marvell__plr_bundles_rules_t__free_unpacked	demo1.pb-c.c	/^void   marvell__plr_bundles_rules_t__free_unpacked$/;"	f	typeref:typename:void
+marvell__plr_bundles_rules_t__get_packed_size	demo1.pb-c.c	/^size_t marvell__plr_bundles_rules_t__get_packed_size$/;"	f	typeref:typename:size_t
+marvell__plr_bundles_rules_t__init	demo1.pb-c.c	/^void   marvell__plr_bundles_rules_t__init$/;"	f	typeref:typename:void
+marvell__plr_bundles_rules_t__number_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__plr_bundles_rules_t__number_ranges[1 + 1] =$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__plr_bundles_rules_t__pack	demo1.pb-c.c	/^size_t marvell__plr_bundles_rules_t__pack$/;"	f	typeref:typename:size_t
+marvell__plr_bundles_rules_t__pack_to_buffer	demo1.pb-c.c	/^size_t marvell__plr_bundles_rules_t__pack_to_buffer$/;"	f	typeref:typename:size_t
+marvell__plr_bundles_rules_t__unpack	demo1.pb-c.c	/^       marvell__plr_bundles_rules_t__unpack$/;"	f	typeref:typename:Marvell__PlrBundlesRulesT *
+marvell__plr_hrx_rules_t__descriptor	demo1.pb-c.c	/^const ProtobufCMessageDescriptor marvell__plr_hrx_rules_t__descriptor =$/;"	v	typeref:typename:const ProtobufCMessageDescriptor
+marvell__plr_hrx_rules_t__field_descriptors	demo1.pb-c.c	/^static const ProtobufCFieldDescriptor marvell__plr_hrx_rules_t__field_descriptors[13] =$/;"	v	typeref:typename:const ProtobufCFieldDescriptor[13]	file:
+marvell__plr_hrx_rules_t__field_indices_by_name	demo1.pb-c.c	/^static const unsigned marvell__plr_hrx_rules_t__field_indices_by_name[] = {$/;"	v	typeref:typename:const unsigned[]	file:
+marvell__plr_hrx_rules_t__free_unpacked	demo1.pb-c.c	/^void   marvell__plr_hrx_rules_t__free_unpacked$/;"	f	typeref:typename:void
+marvell__plr_hrx_rules_t__get_packed_size	demo1.pb-c.c	/^size_t marvell__plr_hrx_rules_t__get_packed_size$/;"	f	typeref:typename:size_t
+marvell__plr_hrx_rules_t__init	demo1.pb-c.c	/^void   marvell__plr_hrx_rules_t__init$/;"	f	typeref:typename:void
+marvell__plr_hrx_rules_t__number_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__plr_hrx_rules_t__number_ranges[1 + 1] =$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__plr_hrx_rules_t__pack	demo1.pb-c.c	/^size_t marvell__plr_hrx_rules_t__pack$/;"	f	typeref:typename:size_t
+marvell__plr_hrx_rules_t__pack_to_buffer	demo1.pb-c.c	/^size_t marvell__plr_hrx_rules_t__pack_to_buffer$/;"	f	typeref:typename:size_t
+marvell__plr_hrx_rules_t__unpack	demo1.pb-c.c	/^       marvell__plr_hrx_rules_t__unpack$/;"	f	typeref:typename:Marvell__PlrHrxRulesT *
+marvell__plr_lm_rules_t__descriptor	demo1.pb-c.c	/^const ProtobufCMessageDescriptor marvell__plr_lm_rules_t__descriptor =$/;"	v	typeref:typename:const ProtobufCMessageDescriptor
+marvell__plr_lm_rules_t__field_descriptors	demo1.pb-c.c	/^static const ProtobufCFieldDescriptor marvell__plr_lm_rules_t__field_descriptors[2] =$/;"	v	typeref:typename:const ProtobufCFieldDescriptor[2]	file:
+marvell__plr_lm_rules_t__field_indices_by_name	demo1.pb-c.c	/^static const unsigned marvell__plr_lm_rules_t__field_indices_by_name[] = {$/;"	v	typeref:typename:const unsigned[]	file:
+marvell__plr_lm_rules_t__free_unpacked	demo1.pb-c.c	/^void   marvell__plr_lm_rules_t__free_unpacked$/;"	f	typeref:typename:void
+marvell__plr_lm_rules_t__get_packed_size	demo1.pb-c.c	/^size_t marvell__plr_lm_rules_t__get_packed_size$/;"	f	typeref:typename:size_t
+marvell__plr_lm_rules_t__init	demo1.pb-c.c	/^void   marvell__plr_lm_rules_t__init$/;"	f	typeref:typename:void
+marvell__plr_lm_rules_t__number_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__plr_lm_rules_t__number_ranges[1 + 1] =$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__plr_lm_rules_t__pack	demo1.pb-c.c	/^size_t marvell__plr_lm_rules_t__pack$/;"	f	typeref:typename:size_t
+marvell__plr_lm_rules_t__pack_to_buffer	demo1.pb-c.c	/^size_t marvell__plr_lm_rules_t__pack_to_buffer$/;"	f	typeref:typename:size_t
+marvell__plr_lm_rules_t__unpack	demo1.pb-c.c	/^       marvell__plr_lm_rules_t__unpack$/;"	f	typeref:typename:Marvell__PlrLmRulesT *
+marvell__plr_lrx_rules_t__descriptor	demo1.pb-c.c	/^const ProtobufCMessageDescriptor marvell__plr_lrx_rules_t__descriptor =$/;"	v	typeref:typename:const ProtobufCMessageDescriptor
+marvell__plr_lrx_rules_t__field_descriptors	demo1.pb-c.c	/^static const ProtobufCFieldDescriptor marvell__plr_lrx_rules_t__field_descriptors[14] =$/;"	v	typeref:typename:const ProtobufCFieldDescriptor[14]	file:
+marvell__plr_lrx_rules_t__field_indices_by_name	demo1.pb-c.c	/^static const unsigned marvell__plr_lrx_rules_t__field_indices_by_name[] = {$/;"	v	typeref:typename:const unsigned[]	file:
+marvell__plr_lrx_rules_t__free_unpacked	demo1.pb-c.c	/^void   marvell__plr_lrx_rules_t__free_unpacked$/;"	f	typeref:typename:void
+marvell__plr_lrx_rules_t__get_packed_size	demo1.pb-c.c	/^size_t marvell__plr_lrx_rules_t__get_packed_size$/;"	f	typeref:typename:size_t
+marvell__plr_lrx_rules_t__init	demo1.pb-c.c	/^void   marvell__plr_lrx_rules_t__init$/;"	f	typeref:typename:void
+marvell__plr_lrx_rules_t__number_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__plr_lrx_rules_t__number_ranges[1 + 1] =$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__plr_lrx_rules_t__pack	demo1.pb-c.c	/^size_t marvell__plr_lrx_rules_t__pack$/;"	f	typeref:typename:size_t
+marvell__plr_lrx_rules_t__pack_to_buffer	demo1.pb-c.c	/^size_t marvell__plr_lrx_rules_t__pack_to_buffer$/;"	f	typeref:typename:size_t
+marvell__plr_lrx_rules_t__unpack	demo1.pb-c.c	/^       marvell__plr_lrx_rules_t__unpack$/;"	f	typeref:typename:Marvell__PlrLrxRulesT *
+marvell__plr_rules_t__descriptor	demo1.pb-c.c	/^const ProtobufCMessageDescriptor marvell__plr_rules_t__descriptor =$/;"	v	typeref:typename:const ProtobufCMessageDescriptor
+marvell__plr_rules_t__field_descriptors	demo1.pb-c.c	/^static const ProtobufCFieldDescriptor marvell__plr_rules_t__field_descriptors[22] =$/;"	v	typeref:typename:const ProtobufCFieldDescriptor[22]	file:
+marvell__plr_rules_t__field_indices_by_name	demo1.pb-c.c	/^static const unsigned marvell__plr_rules_t__field_indices_by_name[] = {$/;"	v	typeref:typename:const unsigned[]	file:
+marvell__plr_rules_t__free_unpacked	demo1.pb-c.c	/^void   marvell__plr_rules_t__free_unpacked$/;"	f	typeref:typename:void
+marvell__plr_rules_t__get_packed_size	demo1.pb-c.c	/^size_t marvell__plr_rules_t__get_packed_size$/;"	f	typeref:typename:size_t
+marvell__plr_rules_t__init	demo1.pb-c.c	/^void   marvell__plr_rules_t__init$/;"	f	typeref:typename:void
+marvell__plr_rules_t__number_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__plr_rules_t__number_ranges[1 + 1] =$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__plr_rules_t__pack	demo1.pb-c.c	/^size_t marvell__plr_rules_t__pack$/;"	f	typeref:typename:size_t
+marvell__plr_rules_t__pack_to_buffer	demo1.pb-c.c	/^size_t marvell__plr_rules_t__pack_to_buffer$/;"	f	typeref:typename:size_t
+marvell__plr_rules_t__unpack	demo1.pb-c.c	/^       marvell__plr_rules_t__unpack$/;"	f	typeref:typename:Marvell__PlrRulesT *
+marvell__plr_rx_qc_rules_t__descriptor	demo1.pb-c.c	/^const ProtobufCMessageDescriptor marvell__plr_rx_qc_rules_t__descriptor =$/;"	v	typeref:typename:const ProtobufCMessageDescriptor
+marvell__plr_rx_qc_rules_t__field_descriptors	demo1.pb-c.c	/^static const ProtobufCFieldDescriptor marvell__plr_rx_qc_rules_t__field_descriptors[3] =$/;"	v	typeref:typename:const ProtobufCFieldDescriptor[3]	file:
+marvell__plr_rx_qc_rules_t__field_indices_by_name	demo1.pb-c.c	/^static const unsigned marvell__plr_rx_qc_rules_t__field_indices_by_name[] = {$/;"	v	typeref:typename:const unsigned[]	file:
+marvell__plr_rx_qc_rules_t__free_unpacked	demo1.pb-c.c	/^void   marvell__plr_rx_qc_rules_t__free_unpacked$/;"	f	typeref:typename:void
+marvell__plr_rx_qc_rules_t__get_packed_size	demo1.pb-c.c	/^size_t marvell__plr_rx_qc_rules_t__get_packed_size$/;"	f	typeref:typename:size_t
+marvell__plr_rx_qc_rules_t__init	demo1.pb-c.c	/^void   marvell__plr_rx_qc_rules_t__init$/;"	f	typeref:typename:void
+marvell__plr_rx_qc_rules_t__number_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__plr_rx_qc_rules_t__number_ranges[1 + 1] =$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__plr_rx_qc_rules_t__pack	demo1.pb-c.c	/^size_t marvell__plr_rx_qc_rules_t__pack$/;"	f	typeref:typename:size_t
+marvell__plr_rx_qc_rules_t__pack_to_buffer	demo1.pb-c.c	/^size_t marvell__plr_rx_qc_rules_t__pack_to_buffer$/;"	f	typeref:typename:size_t
+marvell__plr_rx_qc_rules_t__unpack	demo1.pb-c.c	/^       marvell__plr_rx_qc_rules_t__unpack$/;"	f	typeref:typename:Marvell__PlrRxQcRulesT *
+marvell__plr_rx_qc_status_t__descriptor	demo1.pb-c.c	/^const ProtobufCMessageDescriptor marvell__plr_rx_qc_status_t__descriptor =$/;"	v	typeref:typename:const ProtobufCMessageDescriptor
+marvell__plr_rx_qc_status_t__field_descriptors	demo1.pb-c.c	/^static const ProtobufCFieldDescriptor marvell__plr_rx_qc_status_t__field_descriptors[1] =$/;"	v	typeref:typename:const ProtobufCFieldDescriptor[1]	file:
+marvell__plr_rx_qc_status_t__field_indices_by_name	demo1.pb-c.c	/^static const unsigned marvell__plr_rx_qc_status_t__field_indices_by_name[] = {$/;"	v	typeref:typename:const unsigned[]	file:
+marvell__plr_rx_qc_status_t__free_unpacked	demo1.pb-c.c	/^void   marvell__plr_rx_qc_status_t__free_unpacked$/;"	f	typeref:typename:void
+marvell__plr_rx_qc_status_t__get_packed_size	demo1.pb-c.c	/^size_t marvell__plr_rx_qc_status_t__get_packed_size$/;"	f	typeref:typename:size_t
+marvell__plr_rx_qc_status_t__init	demo1.pb-c.c	/^void   marvell__plr_rx_qc_status_t__init$/;"	f	typeref:typename:void
+marvell__plr_rx_qc_status_t__number_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__plr_rx_qc_status_t__number_ranges[1 + 1] =$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__plr_rx_qc_status_t__pack	demo1.pb-c.c	/^size_t marvell__plr_rx_qc_status_t__pack$/;"	f	typeref:typename:size_t
+marvell__plr_rx_qc_status_t__pack_to_buffer	demo1.pb-c.c	/^size_t marvell__plr_rx_qc_status_t__pack_to_buffer$/;"	f	typeref:typename:size_t
+marvell__plr_rx_qc_status_t__unpack	demo1.pb-c.c	/^       marvell__plr_rx_qc_status_t__unpack$/;"	f	typeref:typename:Marvell__PlrRxQcStatusT *
+marvell__plr_tx_rules_t__descriptor	demo1.pb-c.c	/^const ProtobufCMessageDescriptor marvell__plr_tx_rules_t__descriptor =$/;"	v	typeref:typename:const ProtobufCMessageDescriptor
+marvell__plr_tx_rules_t__field_descriptors	demo1.pb-c.c	/^static const ProtobufCFieldDescriptor marvell__plr_tx_rules_t__field_descriptors[9] =$/;"	v	typeref:typename:const ProtobufCFieldDescriptor[9]	file:
+marvell__plr_tx_rules_t__field_indices_by_name	demo1.pb-c.c	/^static const unsigned marvell__plr_tx_rules_t__field_indices_by_name[] = {$/;"	v	typeref:typename:const unsigned[]	file:
+marvell__plr_tx_rules_t__free_unpacked	demo1.pb-c.c	/^void   marvell__plr_tx_rules_t__free_unpacked$/;"	f	typeref:typename:void
+marvell__plr_tx_rules_t__get_packed_size	demo1.pb-c.c	/^size_t marvell__plr_tx_rules_t__get_packed_size$/;"	f	typeref:typename:size_t
+marvell__plr_tx_rules_t__init	demo1.pb-c.c	/^void   marvell__plr_tx_rules_t__init$/;"	f	typeref:typename:void
+marvell__plr_tx_rules_t__number_ranges	demo1.pb-c.c	/^static const ProtobufCIntRange marvell__plr_tx_rules_t__number_ranges[1 + 1] =$/;"	v	typeref:typename:const ProtobufCIntRange[]	file:
+marvell__plr_tx_rules_t__pack	demo1.pb-c.c	/^size_t marvell__plr_tx_rules_t__pack$/;"	f	typeref:typename:size_t
+marvell__plr_tx_rules_t__pack_to_buffer	demo1.pb-c.c	/^size_t marvell__plr_tx_rules_t__pack_to_buffer$/;"	f	typeref:typename:size_t
+marvell__plr_tx_rules_t__unpack	demo1.pb-c.c	/^       marvell__plr_tx_rules_t__unpack$/;"	f	typeref:typename:Marvell__PlrTxRulesT *
+n_baud_rate	demo1.pb-c.h	/^  size_t n_baud_rate;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+n_bundle	demo1.pb-c.h	/^  size_t n_bundle;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:size_t
+n_fir_tap	demo1.pb-c.h	/^  size_t n_fir_tap;$/;"	m	struct:_Marvell__PlrTxRulesT	typeref:typename:size_t
+n_hrx	demo1.pb-c.h	/^  size_t n_hrx;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+n_hrx	demo1.pb-c.h	/^  size_t n_hrx;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:size_t
+n_hrx_qc	demo1.pb-c.h	/^  size_t n_hrx_qc;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+n_htx	demo1.pb-c.h	/^  size_t n_htx;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+n_htx	demo1.pb-c.h	/^  size_t n_htx;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:size_t
+n_htx_xbar	demo1.pb-c.h	/^  size_t n_htx_xbar;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+n_htx_xbar	demo1.pb-c.h	/^  size_t n_htx_xbar;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:size_t
+n_id	demo1.pb-c.h	/^  size_t n_id;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+n_ieee_demap	demo1.pb-c.h	/^  size_t n_ieee_demap;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+n_lrx	demo1.pb-c.h	/^  size_t n_lrx;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+n_lrx	demo1.pb-c.h	/^  size_t n_lrx;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:size_t
+n_lrx_qc	demo1.pb-c.h	/^  size_t n_lrx_qc;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+n_ltx	demo1.pb-c.h	/^  size_t n_ltx;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+n_ltx	demo1.pb-c.h	/^  size_t n_ltx;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:size_t
+n_ltx_xbar	demo1.pb-c.h	/^  size_t n_ltx_xbar;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+n_ltx_xbar	demo1.pb-c.h	/^  size_t n_ltx_xbar;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:size_t
+n_operational_mode	demo1.pb-c.h	/^  size_t n_operational_mode;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:size_t
+oim_en	demo1.pb-c.h	/^  protobuf_c_boolean oim_en;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:protobuf_c_boolean
+oim_en	demo1.proto	/^    required bool oim_en = 8;$/;"	f
+operational_mode	demo1.pb-c.h	/^  Marvell__EPlrOperationalMode operational_mode;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__EPlrOperationalMode
+operational_mode	demo1.pb-c.h	/^  uint32_t *operational_mode;$/;"	m	struct:_Marvell__PlrBundlesRulesT	typeref:typename:uint32_t *
+operational_mode	demo1.proto	/^    repeated uint32 operational_mode = 3;$/;"	f
+operational_mode	demo1.proto	/^    required e_plr_operational_mode operational_mode = 2;$/;"	f
+package_type	demo1.pb-c.h	/^  Marvell__EPlrPackageType package_type;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__EPlrPackageType
+package_type	demo1.proto	/^    required e_plr_package_type package_type = 1;$/;"	f
+plr_advance_rules_t_populate	main.c	/^void plr_advance_rules_t_populate(Marvell__PlrAdvancedRulesT *node)$/;"	f	typeref:typename:void
+plr_advanced_rules_t	demo1.proto	/^message plr_advanced_rules_t {$/;"	m
+plr_bundles_rules_t	demo1.proto	/^message plr_bundles_rules_t {$/;"	m
+plr_hrx_rules_t	demo1.proto	/^message plr_hrx_rules_t {$/;"	m
+plr_lm_rules_t	demo1.proto	/^message plr_lm_rules_t {$/;"	m
+plr_lm_rules_t_populate	main.c	/^void plr_lm_rules_t_populate(Marvell__PlrLmRulesT *node)$/;"	f	typeref:typename:void
+plr_lrx_rules_t	demo1.proto	/^message plr_lrx_rules_t {$/;"	m
+plr_rules_t	demo1.proto	/^message plr_rules_t {$/;"	m
+plr_rules_t_populate_easy	main.c	/^void plr_rules_t_populate_easy(Marvell__PlrRulesT *node)$/;"	f	typeref:typename:void
+plr_rules_t_populate_enum	main.c	/^void plr_rules_t_populate_enum(Marvell__PlrRulesT *node)$/;"	f	typeref:typename:void
+plr_rx_qc_rules_t	demo1.proto	/^message plr_rx_qc_rules_t {$/;"	m
+plr_rx_qc_status_t	demo1.proto	/^message plr_rx_qc_status_t {$/;"	m
+plr_tx_rules_t	demo1.proto	/^message plr_tx_rules_t {$/;"	m
+preamp_bias_ctrl	demo1.pb-c.h	/^  uint32_t preamp_bias_ctrl;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:uint32_t
+preamp_bias_ctrl	demo1.proto	/^    required uint32 preamp_bias_ctrl = 9;$/;"	f
+qc_all_dis	demo1.pb-c.h	/^  protobuf_c_boolean qc_all_dis;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:protobuf_c_boolean
+qc_all_dis	demo1.proto	/^    required bool qc_all_dis = 10;$/;"	f
+qc_hist_dis	demo1.pb-c.h	/^  protobuf_c_boolean qc_hist_dis;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:protobuf_c_boolean
+qc_hist_dis	demo1.proto	/^    required bool qc_hist_dis = 11;$/;"	f
+qc_slc_dis	demo1.pb-c.h	/^  protobuf_c_boolean qc_slc_dis;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:protobuf_c_boolean
+qc_slc_dis	demo1.proto	/^    required bool qc_slc_dis = 12;$/;"	f
+qc_snr_dis	demo1.pb-c.h	/^  protobuf_c_boolean qc_snr_dis;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:protobuf_c_boolean
+qc_snr_dis	demo1.proto	/^    required bool qc_snr_dis = 13;$/;"	f
+ref_clk	demo1.pb-c.h	/^  int32_t ref_clk;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:int32_t
+ref_clk	demo1.proto	/^    required int32 ref_clk = 4;$/;"	f
+ref_clk_mode	demo1.pb-c.h	/^  Marvell__EPlrRefClkMode ref_clk_mode;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:Marvell__EPlrRefClkMode
+ref_clk_mode	demo1.proto	/^    required e_plr_ref_clk_mode ref_clk_mode = 3;$/;"	f
+sfec_en	demo1.pb-c.h	/^  protobuf_c_boolean sfec_en;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:protobuf_c_boolean
+sfec_en	demo1.proto	/^    required bool sfec_en = 6;$/;"	f
+sfp56_tp7_en	demo1.pb-c.h	/^  protobuf_c_boolean sfp56_tp7_en;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:protobuf_c_boolean
+sfp56_tp7_en	demo1.proto	/^    required bool sfp56_tp7_en = 14;$/;"	f
+show_debug_info	demo1.pb-c.h	/^  protobuf_c_boolean show_debug_info;$/;"	m	struct:_Marvell__PlrRulesT	typeref:typename:protobuf_c_boolean
+show_debug_info	demo1.proto	/^    required bool show_debug_info = 10;$/;"	f
+signalling	demo1.pb-c.h	/^  Marvell__EPlrSignalMode signalling;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:Marvell__EPlrSignalMode
+signalling	demo1.pb-c.h	/^  Marvell__EPlrSignalMode signalling;$/;"	m	struct:_Marvell__PlrTxRulesT	typeref:typename:Marvell__EPlrSignalMode
+signalling	demo1.proto	/^    required e_plr_signal_mode signalling = 2;$/;"	f
+signalling	demo1.proto	/^    required e_plr_signal_mode signalling = 3;$/;"	f
+slc_err_limit	demo1.pb-c.h	/^  uint32_t slc_err_limit;$/;"	m	struct:_Marvell__PlrRxQcRulesT	typeref:typename:uint32_t
+slc_err_limit	demo1.proto	/^    required uint32 slc_err_limit = 3;$/;"	f
+snr_threshold_mm_enter	demo1.pb-c.h	/^  Marvell__EPlrRxQcSnrThreshold snr_threshold_mm_enter;$/;"	m	struct:_Marvell__PlrRxQcRulesT	typeref:typename:Marvell__EPlrRxQcSnrThreshold
+snr_threshold_mm_enter	demo1.proto	/^    required e_plr_rx_qc_snr_threshold snr_threshold_mm_enter = 1;$/;"	f
+snr_threshold_mm_exit	demo1.pb-c.h	/^  Marvell__EPlrRxQcSnrThreshold snr_threshold_mm_exit;$/;"	m	struct:_Marvell__PlrRxQcRulesT	typeref:typename:Marvell__EPlrRxQcSnrThreshold
+snr_threshold_mm_exit	demo1.proto	/^    required e_plr_rx_qc_snr_threshold snr_threshold_mm_exit = 2;$/;"	f
+squelch_lock	demo1.pb-c.h	/^  protobuf_c_boolean squelch_lock;$/;"	m	struct:_Marvell__PlrTxRulesT	typeref:typename:protobuf_c_boolean
+squelch_lock	demo1.proto	/^    required bool squelch_lock = 2;$/;"	f
+sr_vco_mode	demo1.pb-c.h	/^  protobuf_c_boolean sr_vco_mode;$/;"	m	struct:_Marvell__PlrHrxRulesT	typeref:typename:protobuf_c_boolean
+sr_vco_mode	demo1.proto	/^    required bool sr_vco_mode = 13;$/;"	f
+status	demo1.pb-c.h	/^  Marvell__PlrRxQcStatusT *status;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:Marvell__PlrRxQcStatusT *
+status	demo1.pb-c.h	/^  uint32_t status;$/;"	m	struct:_Marvell__PlrRxQcStatusT	typeref:typename:uint32_t
+status	demo1.proto	/^    required plr_rx_qc_status_t status = 14;$/;"	f
+status	demo1.proto	/^    required uint32 status = 1;$/;"	f
+vga_tracking_en	demo1.pb-c.h	/^  protobuf_c_boolean vga_tracking_en;$/;"	m	struct:_Marvell__PlrLrxRulesT	typeref:typename:protobuf_c_boolean
+vga_tracking_en	demo1.proto	/^    required bool vga_tracking_en = 7;$/;"	f
